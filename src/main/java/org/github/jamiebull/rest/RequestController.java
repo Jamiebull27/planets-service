@@ -1,4 +1,4 @@
-package org.github.jamiebull27.rest;
+package org.github.jamiebull.rest;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestMapping;
