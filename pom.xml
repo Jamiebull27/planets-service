@@ -11,7 +11,7 @@
     <dependencies>
         <dependency>
             <groupId>org.github.jamiebull</groupId>
-            <artifactId>planetary-battle-core</artifactId>
+            <artifactId>planets-core</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
