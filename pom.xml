@@ -44,4 +44,12 @@
             <url>http://ec2-3-85-102-220.compute-1.amazonaws.com:8081/repository/maven-nexus-repo/</url>
         </snapshotRepository>
     </distributionManagement>
+
+    <repositories>
+        <repository>
+            <id>nexus-repo</id>
+            <name>nexus-repo</name>
+            <url>http://ec2-3-85-102-220.compute-1.amazonaws.com:8081/repository/maven-nexus-repo/</url>
+        </repository>
+    </repositories>
 </project>
