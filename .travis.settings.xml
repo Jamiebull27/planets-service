@@ -11,13 +11,4 @@
         </server>
     </servers>
 
-    <mirrors>
-        <mirror>
-            <id>central</id>
-            <name>central</name>
-            <url>http://ec2-3-85-102-220.compute-1.amazonaws.com:8081/repository/maven-nexus-repo/</url>
-            <mirrorOf>*</mirrorOf>
-        </mirror>
-    </mirrors>
-
 </settings>
