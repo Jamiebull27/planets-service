@@ -4,10 +4,10 @@ sudo: false
 services: docker
 
 before_install:
-  - docker build -t planets-service
-  - docker run -d -p 127.0.0.1:80:4567 planets-service /bin/sh -c "cd /root/planets-service; bundle exec foreman start;"
+  - docker build -t ps
+  - docker run -d -p 127.0.0.1:80:4567 ps /bin/sh -c "cd /root/ps; bundle exec foreman start;"
   - docker ps -a
-  - docker run planets-service /bin/sh -c "cd /root/planets-service; bundle exec rake test"
+  - docker run ps /bin/sh -c "cd /root/ps; bundle exec rake test"
 
 script:
   - mvn clean deploy --settings .travis.settings.xml
